@@ -1,0 +1,56 @@
+.services-heading h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+.services-heading p {
+    text-align: center;
+    margin-left: 20%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    color: #ffffff !important;
+    margin-right: 20%;
+}
+
+.services-card img {
+    width: 498px;
+}
+
+.services-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin: 30px;
+}
+
+.services-card-heading > h1 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    color: #ffffff !important;
+}
+
+.services-card-heading > p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    color: #ffffff !important;
+    text-align: center;
+    width: 90%;
+}
+
+.services-container {
+    margin-top: 5%;
+}
+
+.services-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 10% 0 10%;
+}
+
+.services-card.zig {
+    display: flex;
+    flex-direction: row-reverse;
+}
