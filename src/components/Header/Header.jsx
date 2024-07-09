@@ -35,8 +35,8 @@ const Header = () => {
           <Link to='/careers' onClick={() => navbarClick('item5')}>
             <li className={`nav-item ${activeItem === 'item5' ? 'active' : ''}`} id='item5'>Careers</li>
           </Link>
-          <Link to='/contactus' onClick={() => navbarClick('item6')}>
-            <li className={`nav-item contact-us-button ${activeItem === 'item6' ? 'active' : ''}`} id='item6'>
+          <Link to='/getquote' onClick={() => navbarClick('item6')}>
+            <li className={`nav-item ${activeItem === 'item6' ? 'active' : ''}`} id='item6'>
               <div className='contact-us-button'>
                 <p className='contact-us-button-text'>Get Quote</p>
               </div>
