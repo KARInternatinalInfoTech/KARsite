@@ -107,3 +107,119 @@
 .input-container input :focus {
     border: 0;
 }
+
+/* 
+.contact-us-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 6%;
+}
+
+.contact-us-input-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input, .input-container textarea {
+    width: 100%;
+    background: #464646;
+    height: 50px;
+    border: 0;
+    padding: 0 20px;
+    color: #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+}
+
+.input-container textarea {
+    height: 160px;
+    padding-top: 20px;
+}
+
+.contact-us-form-container {
+    background: #222222;
+    padding: 3%;
+    border-radius: 12px;
+}
+
+.contact-us-form-container h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+}
+
+.contact-us-form-container p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+
+.contact-us-map-container img {
+    width: 100%;
+    height: auto;
+}
+
+.form-container {
+    position: relative;
+}
+
+.contact-us-button {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    color: #ED5F22;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-us-button:hover {
+    background-color: #ED5F22;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .contact-us-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-us-form-container {
+        height: auto;
+    }
+
+    .contact-us-map-container {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-us-form-container {
+        height: auto;
+    }
+
+    .input-container input, .input-container textarea {
+        font-size: 14px;
+    }
+
+    .contact-us-button {
+        height: 40px;
+    }
+}
+
+@media (max-width: 374px) {
+    .contact-us-input-container {
+        grid-template-columns: 1fr;
+    }
+
+    .input-container input, .input-container textarea {
+        font-size: 12px;
+    }
+} */
