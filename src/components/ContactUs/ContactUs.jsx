@@ -1,6 +1,6 @@
 import React , {useEffect,useState} from 'react';
-import './ContactUs.css'; 
-import sendEmail from '../EmailHelper/sendEmail';
+import './ContactUs.css';
+import axios from 'axios' 
 const ContactUs = () => {
     const [formData , setFormData] = useState({
         name: '',
@@ -16,7 +16,7 @@ const ContactUs = () => {
 
     const handleClick = (e) => {
         e.preventDefault()
-        sendEmail(formData)
+        axios.post('https://mailer-app-jfqc.onrender.com/sendEmail', formData).then(res => console.log(res.data))
         setFormData({
             name: '',
             email: '',
@@ -67,7 +67,12 @@ const ContactUs = () => {
                     </div>
                     <div className='input-container'>
                         <label htmlFor="phone">Subject</label>
-                        <input type="text" name ="subject" placeholder='Subject' onChange={(e)=> handleChange(e, 'subject')} value={formData.subject} />
+                        <select name="subject" onChange={(e)=> handleChange(e, 'subject')} value={formData.subject}>
+                            <option value="">Select</option>
+                            <option value="Product Enquiry">Product Enquiry</option>
+                            <option value="General Enquiry">General Enquiry</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </div>
                     <div className='input-container'>
                         <label htmlFor="message">Message</label>
