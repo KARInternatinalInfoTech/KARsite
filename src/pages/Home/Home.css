@@ -221,6 +221,34 @@ ul.icons-set-1-ul {
     .home-container-2 {
         padding-top: 10%;
     }
+
+    .home-heading {
+        font-family: "Roboto Mono", monospace;
+        font-size: 40px;
+        color: #ED5F22 !important;
+        width: 98%;
+    }
+
+    .home-buttons {
+        width: 100%;
+    }
+
+    ul.icons-set-1-ul {
+        width: 90%;
+    }
+
+    .icons-set-1-li img {
+        width: 80px;
+    }
+
+    .home-heading {
+        padding-left: 20px;
+    }
+
+    .home-p {
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -231,10 +259,6 @@ ul.icons-set-1-ul {
 
     .home-container img {
         height: 400px;
-    }
-
-    .home-heading {
-        font-size: 25px;
     }
 
     .home-p {
@@ -255,7 +279,29 @@ ul.icons-set-1-ul {
 
     .home-container-2 {
         padding-top: 8%;
+        padding-left: 16px;
     }
+
+    .home-section-2 .home-section-2-heading {
+        font-size: 24px;
+    }
+    .home-section-2-p {
+        font-size: 16px;
+    }
+
+    .home-heading {
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .icons-set-1-li img{
+        width: 40px;
+    }
+
+    ul.icons-set-1-ul {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 374px) {
@@ -294,11 +340,11 @@ ul.icons-set-1-ul {
     }
     
     .home-section-2 .home-section-2-heading {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .home-section-2-p {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -309,7 +355,10 @@ ul.icons-set-1-ul {
     }
 
     ul.icons-set-1-ul li {
-        flex: 1 1 30%;
         margin: 5px;
+    }
+
+    .icons-set-1-li img{
+        width: 38px;
     }
 }

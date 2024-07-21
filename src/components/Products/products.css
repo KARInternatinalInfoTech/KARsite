@@ -149,11 +149,22 @@
 
     .products-card-heading > h1 {
         font-size: 25px;
+        margin-top: 15px;
     }
 
     .products-card-heading > p {
         font-size: 18px;
     }
+
+    .products-card {
+        margin: 0;
+    }
+
+    .products-card-heading > p {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 576px) {
@@ -173,10 +184,20 @@
 
     .products-card-heading > h1 {
         font-size: 20px;
+        margin-top: 15px;
     }
 
     .products-card-heading > p {
         font-size: 16px;
+        width: 19rem;
+    }
+
+    .products-card {
+        margin: 0;
+    }
+
+    .products-heading p {
+        font-size: 14px;
     }
 }
 
@@ -205,5 +226,22 @@
 
     .products-card {
         margin: 10px;
+        grid-gap: 5%;
+    }
+
+    .products-card-container {
+        margin: 0;
+    }
+
+    .products-card-heading > p {
+        width: 17rem;
+    }
+    
+    .products-card-heading > h1 {
+        margin-top: 15px;
+    }
+
+    .products-heading p {
+        font-size: 14px;
     }
 }
