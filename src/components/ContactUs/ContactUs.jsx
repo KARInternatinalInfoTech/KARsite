@@ -6,7 +6,7 @@ const ContactUs = () => {
         <div className='contact-us-container'>
             {/* map location section */}
             <div className='contact-us-map-container'>
-                <img src="/images/maps.svg" alt="map" />
+                
             </div>
                 
             {/* form section */}
